@@ -33,7 +33,7 @@ które nie zwracaj± sygnalizuj±cego b³±d kodu wyj¶cia, gdy powinny.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
