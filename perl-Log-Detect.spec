@@ -10,7 +10,7 @@ Summary(pl):	Log::Detect - przetwarzanie logów w celu wykrycia b³êdów i ostrze¿e
 Name:		perl-Log-Detect
 Version:	1.414
 Release:	1
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6ce087aac7bbbf5d9d1d0034b783b4b7
