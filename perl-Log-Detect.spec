@@ -1,6 +1,7 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Detect
@@ -14,7 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6ce087aac7bbbf5d9d1d0034b783b4b7
 BuildRequires:	perl-devel >= 5.6
-%if %{?!_without_tests:1}0
+%if %{with tests}
 BuildRequires:	perl-IO-Zlib
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -41,7 +42,7 @@ które nie zwracaj± sygnalizuj±cego b³±d kodu wyj¶cia, gdy powinny.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
