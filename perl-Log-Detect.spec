@@ -47,7 +47,8 @@ które nie zwracaj± sygnalizuj±cego b³±d kodu wyj¶cia, gdy powinny.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_examplesdir}
 cp -a example $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
