@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Log
-%define	pnam	Detect
+%define		pdir	Log
+%define		pnam	Detect
 Summary:	Log::Detect - read logfiles to detect error and warning messages
 Summary(pl):	Log::Detect - przetwarzanie logów w celu wykrycia b³êdów i ostrze¿eñ
 Name:		perl-Log-Detect
