@@ -35,7 +35,7 @@ które nie zwracaj± sygnalizuj±cego b³±d kodu wyj¶cia, gdy powinny.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
