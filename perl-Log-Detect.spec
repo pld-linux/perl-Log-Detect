@@ -4,8 +4,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Detect
-Summary:	Log::Detect - Read logfiles to detect error and warning messages
-Summary(pl):	Log::Detect - Przetwórz logi w celu wykrycia b³êdów i ostrze¿eñ
+Summary:	Log::Detect - read logfiles to detect error and warning messages
+Summary(pl):	Log::Detect - przetwarzanie logów w celu wykrycia b³êdów i ostrze¿eñ
 Name:		perl-Log-Detect
 Version:	1.414
 Release:	1
