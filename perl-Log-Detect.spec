@@ -6,7 +6,7 @@
 %define		pdir	Log
 %define		pnam	Detect
 Summary:	Log::Detect - read logfiles to detect error and warning messages
-Summary(pl.UTF-8):   Log::Detect - przetwarzanie logów w celu wykrycia błędów i ostrzeżeń
+Summary(pl.UTF-8):	Log::Detect - przetwarzanie logów w celu wykrycia błędów i ostrzeżeń
 Name:		perl-Log-Detect
 Version:	1.421
 Release:	0.1
