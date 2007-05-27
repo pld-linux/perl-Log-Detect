@@ -12,8 +12,9 @@ Version:	1.422
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Log/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b7f026e74269c2049aa53b6ddeb48704
+URL:		http://search.cpan.org/dist/Log-Detect/
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-IO-Zlib
