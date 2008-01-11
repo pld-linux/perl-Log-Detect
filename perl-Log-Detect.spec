@@ -61,5 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{perl_vendorlib}/%{pdir}/*.pm
 %{_examplesdir}/%{name}-%{version}
-%{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
