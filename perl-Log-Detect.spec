@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Log
 %define		pnam	Detect
 Summary:	Log::Detect - read logfiles to detect error and warning messages
