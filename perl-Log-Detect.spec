@@ -8,7 +8,7 @@ Summary:	Log::Detect - read logfiles to detect error and warning messages
 Summary(pl.UTF-8):	Log::Detect - przetwarzanie logów w celu wykrycia błędów i ostrzeżeń
 Name:		perl-Log-Detect
 Version:	1.424
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Log/%{pdir}-%{pnam}-%{version}.tar.gz
